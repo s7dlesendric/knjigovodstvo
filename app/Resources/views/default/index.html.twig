@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <a href="{{ path('getview') }}" class="spf-link">Test view</a>
+{% endblock %}
+
+{% block javascripts %}
+<script>
+    spf.init();
+</script>
+
+{% endblock %}
